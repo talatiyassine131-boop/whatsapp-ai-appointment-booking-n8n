@@ -1,5 +1,7 @@
 WhatsApp AI Appointment Booking with n8n An automated, AI-powered WhatsApp appointment booking workflow built with n8n. This workflow acts as a virtual assistant that handles customer inquiries in multiple languages (Darija, Arabic, French, English), responds in professional French, checks availability, and manages appointments directly in Google Calendar.
 
+![n8n Workflow Architecture](workflow.png)
+
 🚀 Features WhatsApp Integration: Triggered by incoming text messages via WhatsApp Cloud API.
 
 AI-Powered Agent: Uses LangChain and OpenRouter (gpt-4o-mini) to process natural language and extract booking details (Name, Service, Date, Time, Duration).
